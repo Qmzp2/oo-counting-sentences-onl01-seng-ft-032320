@@ -18,6 +18,6 @@ self.end_with?("!")
     split_sentence = []
   split_sentence << self.split(/[.!?]/) 
   split_sentence = split_sentence.reject{|sentence| sentence.empty?}
-  
+  split_sentence
   end
 end
